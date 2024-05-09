@@ -1,0 +1,18 @@
+[project]
+name = "pyls_amanhere"
+version = "0.1"
+authors = [
+  { name="Aman Jaiswal", email="amanjaiswal3m820@gmail.com" },
+]
+description = "Prints the contents of input json file to console in the style of unix 'ls' utility"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.scripts]
+pyls = "pyls_amanhere:main"
